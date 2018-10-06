@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int sum(int a, int b)//function declared
 {
@@ -10,4 +10,6 @@ int main()
     int x, y;
     cin>>x>>y;//input x and y
     cout<<sum(x,y);
+    
+    return 0;
 }
